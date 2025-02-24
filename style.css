@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+body {
+  display: flex;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 1600px;
+  height: 1000px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 215px;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.header__button {
+  width: 110.166px;
+  height: 41.528px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #0CA941;
+  color: #FFF;
+  font-family: Questrial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.header__decoration-flower {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+
+.logo-text {
+  color: #374A3D;
+  font-family: Questrial;
+  font-size: 32.317px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.203px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  list-style: none;
+}
+.nav__link {
+  color: #1D3B53;
+  font-family: Questrial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero {
+  position: relative;
+  padding: 250px 215px;
+}
+.hero__title {
+  width: 616.555px;
+  height: 216.683px;
+  flex-shrink: 0;
+  color: #374A3D;
+  font-family: "Fredoka One";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px;
+  font-variant: small-caps;
+}
+.hero__title span {
+  color: #0CA941;
+}
+.hero__description {
+  width: 534.473px;
+  height: 58.861px;
+  flex-shrink: 0;
+  color: #707070;
+  font-family: Questrial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  font-variant: small-caps;
+  margin-top: 38px;
+}
+.hero__img {
+  position: absolute;
+  right: 72px;
+  top: 100px;
+}
+.hero__button {
+  width: 179.785px;
+  height: 67.112px;
+  color: #374A3D;
+  text-align: center;
+  font-family: Questrial;
+  font-size: 18px;
+  background: none;
+  border-radius: 50%;
+  border: 2px solid #0CA941;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.hero__decoration-cactus {
+  position: absolute;
+  top: 600px;
+  left: 635px;
+}
+.hero__decoration-arrow {
+  position: absolute;
+  bottom: 210px;
+  left: 452px;
+}/*# sourceMappingURL=style.css.map */
