@@ -1,5 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+.profesional-garden {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 527px;
+  padding: 114px 220px;
+}
+.profesional-garden__big-green-text {
+  width: 353px;
+  height: 79.209px;
+  flex-shrink: 0;
+  color: #374A3D;
+  font-family: "Fredoka One";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  font-variant: small-caps;
+}
+.profesional-garden__paragraph-text {
+  font-family: Questrial;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  width: 457px;
+  height: 125px;
+  top: 1521.53px;
+  left: 912.08px;
+  color: #678570;
+}
+.profesional-garden__read-more {
+  font-family: Questrial;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 179px;
+  height: 67px;
+  top: 1686.77px;
+  left: 912.08px;
+  border-width: 2px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid #0CA941;
+  border-radius: 50%;
+}
+
+.df-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 457.917px;
+  height: 383.741px;
+  flex-shrink: 0;
+}
+
+.df-photo {
+  width: 637px;
+  height: 527px;
+}
+
+.df-button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -10,10 +84,10 @@ body {
 .container {
   position: relative;
   width: 1600px;
-  height: 1000px;
+  height: 4815px;
   background: #fff;
   box-sizing: border-box;
-  background-image: url(./background.png);
+  background-image: url(./src/img/background.png);
 }
 
 .header {
@@ -71,6 +145,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  cursor: pointer;
 }
 
 .hero {
@@ -82,7 +157,7 @@ body {
   height: 216.683px;
   flex-shrink: 0;
   color: #374A3D;
-  font-family: "Fredoka One";
+  font-family: Fredoka One;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
