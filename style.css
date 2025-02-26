@@ -28,11 +28,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  transition: all 0.5s ease;
-}
-.header__logo:hover {
-  color: #0CA941;
-  text-shadow: 0 25px 2px #0CA941;
 }
 .header__button {
   width: 110.166px;
@@ -70,6 +65,12 @@ body {
   line-height: 33.203px;
   text-transform: capitalize;
   cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.logo-text:hover {
+  color: #0CA941;
+  text-shadow: 0 25px 2px #0CA941;
 }
 
 .nav {
