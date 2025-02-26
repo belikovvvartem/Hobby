@@ -14,8 +14,6 @@ body
     box-sizing: border-box
     background-image: url(./src/img/background.png)
 
-
-
 .header
     display: flex
     justify-content: space-between
@@ -26,6 +24,11 @@ body
         justify-content: center
         align-items: center
         gap: 10px
+        transition: all 0.5s ease
+
+    &__logo:hover
+        color: #0CA941
+        text-shadow: 0 25px 2px #0CA941
 
     &__button
         width: 110.166px
@@ -40,6 +43,13 @@ body
         font-weight: 600
         line-height: normal
         cursor: pointer
+        transition: all 0.5s ease
+
+    &__button:hover
+        font-weight: 800
+        font-size: 20px
+        box-shadow: 0 0 10px 1px #0CA941
+        border-radius: 15px
 
     &__decoration-flower
         position: absolute
@@ -70,6 +80,11 @@ body
         font-weight: 600
         line-height: normal
         cursor: pointer
+        transition: all 0.5s ease
+
+    &__link:hover
+        color: #0CA941
+        text-shadow: 0 15px 2px #0CA941
 
 .hero
     position: relative
@@ -86,6 +101,7 @@ body
         font-weight: 400
         line-height: 76px
         font-variant: small-caps
+        margin-top: -80px
 
     &__title span
         color: #0CA941
@@ -106,7 +122,7 @@ body
     &__img
         position: absolute
         right: 72px
-        top: 100px
+        top: 0
 
     &__button
         width: 179.785px
@@ -120,6 +136,12 @@ body
         border: 2px solid #0CA941
         margin-top: 40px
         cursor: pointer
+        transition: all 0.5s ease
+
+    &__button:hover
+        font-weight: 800
+        font-size: 20px
+        box-shadow: 0 0 10px 1px #0CA941
 
     &__decoration-cactus
         position: absolute
@@ -130,7 +152,6 @@ body
         position: absolute
         bottom: 210px
         left: 452px
-
 
 @import "milana-section"
 @import "nastya-section"
